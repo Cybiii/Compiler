@@ -1,2 +1,2 @@
 # Compiler-test
-Trying to make my own compiler goes wrong
+Trying to make my own compiler with NASM nad GNU Linker goes wrong
