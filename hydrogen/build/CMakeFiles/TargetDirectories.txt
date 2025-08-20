@@ -1,0 +1,3 @@
+/mnt/c/Users/sebas/Desktop/Compiler-test/hydrogen/build/CMakeFiles/hydro.dir
+/mnt/c/Users/sebas/Desktop/Compiler-test/hydrogen/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/sebas/Desktop/Compiler-test/hydrogen/build/CMakeFiles/rebuild_cache.dir
