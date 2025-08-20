@@ -14,4 +14,5 @@ Linker (executable):
 
 ```
 ld test.o -o test
+nasm -felf64 test.asm && ld test.o -o test && ./test
 ```
