@@ -19,9 +19,33 @@ struct Token
 
 std::vector<Token> tokenize(const std::string &str)
 {
-    for (char c : str)
+    std::vector<Token> tokens{};
+    std::string buf = "";
+
+    for (int i = 0; i < str.length(); i++)
     {
-        std::cout << c << std::endl;
+        char c = str.at(i);
+        if (std::isalpha(c))
+        {
+            buf.push_back(c);
+            i++;
+            while (std::isalpha(str.at(i)))
+            {
+                buf.push_back(str.at(i));
+                i++;
+            }
+            i--;
+
+            if (buf == "return")
+            {
+                tokens.push_back({.type = TokenType::_return});
+            }
+            else
+            {
+                std::cerr << "Something's wrong!" << std::endl;
+                exit(EXIT_FAILURE);
+            }
+        }
     }
 }
 
