@@ -1,6 +1,6 @@
 # Programming Lang and Compiler
 
-Making my own programming lanuage with a self-made compiler with NASM and GNU Linker in C++. Note: WSL might sometimes cause clock skews causing the CMake build fail.
+Making my own programming lanuage with a self-made compiler with NASM and GNU Linker in C++. Note: WSL might sometimes cause clock skews causing the CMake build fail. (project is a WIP)
 
 ## Handy commands:
 
@@ -24,5 +24,6 @@ cd hydrogen
 cmake -S . -B build/ && cmake --build build/
 ./build/hydro ./test.hy
 ```
+
 
 
